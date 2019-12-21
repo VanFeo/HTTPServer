@@ -20,15 +20,15 @@
 * 数据传递使用json格式
 项目结构： 
 ```
-         |--httpserver --httpserver.py (主程序)      
-         |             --config (httpserver配置)   
+                  |--httpserver --httpserver.py (主程序)      
+                  |                          --config (httpserver配置)   
 project--|
-         |
-         |--webframe   --webframe.py (主程序代码)
-         |             --settings （框架配置）
-         |             --views.py （ 应用处理程序） 
-         |             --urls.py （存放路由）
-         |             --settings （框架配置）
+                  |
+                  |--webframe   --webframe.py (主程序代码)
+                  |                           --settings （框架配置）
+                  |                           --views.py （ 应用处理程序） 
+                  |                           --urls.py （存放路由）
+                  |                           --settings （框架配置）
 ```
 ### 交互数据格式协议
 ```
